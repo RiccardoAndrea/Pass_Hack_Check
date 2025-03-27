@@ -28,6 +28,8 @@ void on_hack_clicked(GtkWidget *widget, gpointer data) {
         result = brute_force_attack(password);
     } else if (strcmp(selected_attack, "Dizionario") == 0) {
         result = confronta_password("10-milion-password.txt", password);
+        if(!result)
+            result = confronta_password("dictionary.txt", password);
     } else if (strcmp(selected_attack, "Social Engineering") == 0) {
         // Recupera i dati extra inseriti dall'utente per Social Engineering
         const char *info[8];
