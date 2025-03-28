@@ -5,7 +5,7 @@ Il progetto "Password Security Checker" è un'applicazione sviluppata in C che p
 
 ## Funzionalità
 - **Brute Force**: Prova tutte le combinazioni possibili per indovinare la password.
-- **Dizionario**: Confronta la password con un dizionario predefinito di parole comuni.
+- **Dizionario**: Confronta la password con un dizionario predefinito di parole comuni italiane e password gia compromesse.
 - **Social Engineering**: Effettua un attacco basato su informazioni personali comuni per cercare di indovinare la password. (Vedi note sulla terminologia sotto.)
 
 ## Tecnologie Utilizzate
