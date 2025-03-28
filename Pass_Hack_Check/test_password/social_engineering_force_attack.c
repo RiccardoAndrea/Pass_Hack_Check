@@ -1,9 +1,5 @@
 #include "header.h"
 
-/*spesso l persone usano come ultimo carattere della password uno speciale
-inoltre spesso si usano le info personali recuperabili dai social  questo algoritmo usa tali informazioni chieste all'utente che sono nei social per creare password*/
-
-
 char *capitalize_first_letter(char *str) {
   if (str == NULL || strlen(str) == 0) 
     return str;
